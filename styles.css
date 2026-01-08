@@ -1,23 +1,25 @@
 /*  your css code here. If applicable */
-body {
-	margin: 0;
-	font-family: Arial, sans-serif;
+.testimonial-container {
+    background-color: #f5f5f5;
+    padding: 30px;
 }
 
-.container {
-	background-color: #f5f5f5;
-	padding: 20px;
+.testimonial-container h1 {
+    margin-bottom: 20px;
 }
 
 .testimonial {
-	background-color: #ffffff;
-	padding: 15px;
-	border: 1px solid #dddddd;
-	margin-bottom: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    margin: 0;
 }
 
 .author {
-	display: block;
-	text-align: right;
-	font-style: italic;
+    float: right;
+    font-style: italic;
 }
